@@ -84,3 +84,31 @@ img {
   font-size: 26px;
   line-height: 30px;
 }
+
+.sidebar {
+  background-color: var(--gray);
+  padding: 16px 14px;
+}
+
+.sidebar__heading {
+  margin: 0;
+  margin-bottom: 4px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.sidebar__list {
+  margin-left: 17px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.sidebar__item {
+  margin-bottom: 3px;
+}
+
+.sidebar__item input{
+  margin-right: 3px;
+}
