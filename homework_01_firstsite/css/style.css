@@ -42,3 +42,45 @@ img {
   margin: 0;
   padding: 0;
 }
+
+.page {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.page__body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 262px 1fr;
+  grid-template-rows: min-content 1fr min-content;
+  column-gap: 14px;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.container {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.page-header {
+  grid-column: 1 / -1;
+  margin-top: 8px;
+  margin-bottom: 13px;
+  padding: 18px 14px 16px 14px;
+  color: var(--white);
+  background-color: var(--green);
+}
+
+.page-header__heading {
+  margin: 0;
+  font-size: 26px;
+  line-height: 30px;
+}
