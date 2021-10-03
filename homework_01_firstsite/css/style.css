@@ -203,3 +203,23 @@ img {
   background-color: var(--gray-100);
   color: var(--black);
 }
+
+.page-footer {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-top: 13px;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: var(--gray);
+  color: var(--gray-300);
+}
+
+.page-footer__contacts {
+  margin: 0;
+}
+
+.page-footer__copyright {
+  margin: 0;
+}
